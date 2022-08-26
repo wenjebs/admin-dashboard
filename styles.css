@@ -50,4 +50,10 @@ html, body {
 }
 .main-content-container {
     grid-area: 2 / 2 / 3 / 2;
+    display: grid;
+    grid-template: 1fr 1fr / 2fr 1fr;
+}
+
+.projects-grid {
+    grid-row: 1/3;
 }
