@@ -56,9 +56,23 @@ html, body {
 
 .projects-container {
     grid-row: 1/3;
+    display: grid;
+    grid-template-rows: 1fr 15fr;
 }
 
 .projects-grid {
     display: grid;
-    grid-template: 1fr 1fr/ 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    grid-auto-flow: row;
+}
+
+.announcements-container {
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+}
+.announcements-grid {
+    display: grid;
+    height: 90%;
+    grid-template-rows: 1fr 1fr 1fr;
 }
