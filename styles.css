@@ -41,7 +41,7 @@ html, body {
     align-items: center;
 }
 .dashboard-buttons>div>img {
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .header {
@@ -54,11 +54,30 @@ html, body {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
-
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.search-bar>img {
+    padding: 15px
+}
+.search-bar>
+input {
+    flex: 1;
+    border: 0;
+    border-radius: 25px;
+    background-color: #eef2ff;
+    height: 25px;
+    padding: 2px;
+}
 .header-bottom {
     display: grid;
     grid-template: 1fr 1fr / 4fr 1fr 1fr 1fr;
 }
+
+
 
 .big-name-header {
     grid-area: 2/1/3/2;
