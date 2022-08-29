@@ -72,6 +72,8 @@ input {
     height: 25px;
     padding: 2px;
 }
+
+
 .header-bottom {
     display: grid;
     grid-template: 1fr 1fr / 4fr 1fr 1fr 1fr;
